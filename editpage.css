@@ -1,0 +1,64 @@
+.thewholeedit{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.homepagelogin{
+    margin-left: 2%;
+    display: inline-block;
+    background-color: #283047;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.theseconddivedit{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-width: 400px;
+}
+.lastdivi{
+ 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10%;
+}
+.sendi{
+    border: none;
+    color: white;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin:  -20px -10px;
+    height: 30px;
+    width: 50px;
+    background-color: #7c3c3c;
+    cursor: pointer;
+}
+.sendii{
+    border: none;
+    color: white;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin:  -20px -10px;
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+    background-color: #1c4547;
+}
+.sendii:hover{
+    opacity:0.9;
+    width: 60px;
+}
+.sendi:hover{
+    opacity:0.9;
+    width: 60px;
+
+}

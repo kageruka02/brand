@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Sen;
+    src: url(Sen-Regular.otf);
+}
+@font-face {
+    font-family: inter;
+    src: url(Inter-Black.otf);
+}
+body{
+    margin-left: 30px;
+    font-size: 12pt;
+    background-color: #151925;
+    height: 300px;
+    color: white;
+    font-weight: 100;
+}
+.homepagelogin{
+    margin-left: 2%;
+    display: inline-block;
+    background-color: #283047;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.admin{
+    font-size: 1.5em;
+    flex-direction: column;
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+    text-decoration: underline;
+}
+.sign{
+    background-color: #283047;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 38%;
+     display:none; 
+}
+.ldiv{
+    margin-top: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.logindiv{
+    margin-top: 10%;
+    background-color: #1C4547;
+    display: flex;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    gap: 0px;
+}
+.logintitle{
+    font-size: 1.5rem;
+    font-family: inter;
+}
+.inputbox {
+    padding: 20px;
+    position: relative;
+    width: 250px;
+}
+.inputbox input{
+   
+width: 80%;
+padding: 20px;
+background-color: #151925;
+border:  0px solid #151925; 
+border-radius: 5px;
+outline: none;
+color: #fff;
+}
+.inputbox  span{
+    font-size: 13px;;
+    font-weight: 100;
+    font-family: Sen;
+    position: absolute;
+    left: 20px;
+    padding: 20px;
+    pointer-events: none;
+}
+.forgologin{
+    font-size: 7px;
+
+}
+.forgotlogin{
+    font-size: 7px;
+}
+.clicked{
+    opacity: 0.7;
+        transform:  translateY(-25px);
+        font-size: 5px;
+        padding: 0px 10px;
+        text-transform: lowercase;
+        letter-spacing: 1px;
+}
+.theemail:valid ~span,
+.theemail:focus ~span{
+opacity: 0.7;
+    transform: translateX(10px) translateY(-3px);
+    font-size: 0.8rem;
+    padding: 0px 10px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
+.loginbutton{
+    border: none;
+    font-family: inter;
+    background-color: #fff;
+    display: flex;
+    color: #1C4547;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.loginbutton:hover{
+    background-color:#837f7f;
+    color: white;
+}
+.blogpages{
+    color: #1c4547;
+    text-decoration: none;
+    cursor: pointer;
+}

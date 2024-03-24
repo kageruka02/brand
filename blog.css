@@ -1,0 +1,245 @@
+@font-face {
+    font-family: inter;
+    src: url(Inter-Regular.otf);
+}
+@font-face {
+    font-family: Sen;
+    src: url(Sen-Regular.otf);
+}
+body{
+   
+    background: #151925;
+    font-weight: 100;
+    font-family: inter;
+    padding: 20px;
+    color: white;
+}
+.thewholeblog{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.firstdiv{
+    width: 20%;
+    display: flex;
+    flex-direction:column;
+    gap: 5%;
+}
+.bloggreen{
+    margin: 60px 0;
+    background-color: #1C4547;
+    padding-left: 20px;
+    min-width: 100px;
+    border-radius: 8px;
+
+}
+.bloggreen .p2{
+    padding-bottom: 40px;
+    font-size: 9px;
+}
+.contactmeblog{
+    font-size: 10px;
+    line-height: 20px;
+    text-decoration: underline;
+    color: grey;
+}
+.theseconddivblog{
+    /* background:  #1C4547;; */
+    /*display: inline-flex;*/
+    flex-direction: column;
+    /* border: solid; */
+    width: 100%;
+    min-width: 250px;
+    /* height: 100%; */
+}
+.articless{
+    justify-content: flex-start;
+    gap: 10px;
+    flex-direction: row;
+    display: inline-flex;
+    padding: 20px 2px;
+   /* background-color:black */
+
+}
+.wordArticle{
+    margin-left: 23%;
+}
+.articles{
+  /*  justify-content: flex-start;
+    gap: 10px;
+    flex-direction: row;
+    display: inline-flex;/*this makes the container take the width of the container
+    
+    padding: 20px 2px;
+  */
+    display: grid;
+    grid-template-columns:  1fr 1fr ;
+  /*  max-width: 80%; */
+  padding: 30px;
+    gap: 30px;
+    padding: 20px 20px;
+    border-radius: 15px;
+    }
+.popularandlatest{
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #BFB8B8;
+    margin: 15px 0 0  0;
+    font-weight: 600;
+    font-weight: 700;
+}
+.lessthan{
+    cursor: pointer;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.readmoreblog{
+    /* position:absolute;
+    left: 30%;
+    bottom: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    width: 30%;
+    background-color: #1C4547;
+    border: none;
+    min-height: 50px;
+    color: white;
+    opacity: 0.9;
+    border-radius: 7px;
+    /* display: none; */
+    cursor: pointer;
+
+}
+.gobackbutton{
+
+   
+    font-size: 0.8rem;
+    margin-left: 0;
+    color: white;
+    border-radius: 4px;
+    background-color:#1C4547 ;
+    border: none;
+    transform: translateY(-5px);
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.gobackbutton:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: grey;
+}
+
+.projectphotoblo{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    position: relative;
+    border-radius: 7px;
+    background-color: #283047;
+    padding: 10px 10px;
+    /* width: 100%; */
+  /*  max-width: 160px;*/
+    /* flex: 1 1 auto; */
+}
+.projectphotoblo.full-width{
+    grid-row: span 2;
+    grid-column: span 2;
+    justify-self: stretch;
+    width: 100%;
+    padding: 10% 10%;
+}
+.readmoreblog:hover{
+    opacity: 0.7;
+    font-size: 20px;
+
+}
+.titlepopulartopic{
+    margin-left: -20px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.photoblogs{
+    height: 300px;
+    /*max-height: 50px;*/
+    width: 100%;
+    cursor: pointer;
+
+}
+.thedigitalrealmblogs{
+    text-transform: capitalize;
+    font-family: Sen;
+    font-size: 20px;
+    font-weight: 700;
+}
+.thedigitalparagraphblog{
+    font-size: 15px;
+    font-family: Sen;
+    font-weight: 100;
+}
+.conclusion{
+    margin-top: 20px;
+    font-size: 7px;
+    color: gray;
+}
+.usernameblog{
+    font-weight: 700;
+    color: gray;
+    font-size: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.messageblog{
+    background-color: #283047;
+    border-radius: 15px;
+    max-height: 30px;
+    min-width: 250px;
+}
+.theprofilephoto{
+    height: 30px;
+    border-radius: 15px;
+}
+.socialmedialaddresss{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 250px;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 350px){
+    body{
+        font-size: 8px;
+    }
+    .thewholeblog{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .bloggreen{
+        border-radius: 10px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .firstdiv{
+        width: 70%;
+    }
+    .contactmeblog{
+        display:none;
+    }
+    .span2{
+        margin-left: 50px;
+    }
+    .popularandlatest{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .theseconddivblog{
+        width:100%;
+    }
+}

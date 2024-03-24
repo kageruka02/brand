@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>dashboard</title>
+        <link rel="stylesheet" href="dashboard.css">
+        <link rel="stylesheet" href="blog.css">
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="stylesheet" href="login.html">
+        <link rel="stylesheet" href="editpage.css">
+        <script src=" sscript1.js" defer ></script>
+    </head>
+    <body>
+        
+        <nav class="nav"><div class="adminDashboard">Admin Dashboard</div>
+        <div class="displaymessage" id ='displayMessageId'>fhdjhfjhd</div> </nav>
+        <br>
+        <div class="wholedivdash">
+            <div class="thefirstdivdash">
+                <!-- <div class="admindash">Admin</div> -->
+                <div class="dashboarddash">
+                    <div class="items" id = 'dashboardbutton'>Dashboard</div>
+                    <div class="items" id = 'newarticlebutton'>New Articles</div>
+                    <div class="items" id = 'messagesbutton'>Messages</div>
+                    <div class="items" id = 'logoutbutton'>Log out</div>
+                </div>
+        </div>
+            <div class="theseconddivdashboard">
+                <!-- <div class="dashboardword">Dashboard</div> -->
+                <div class="tableofarticles" id = 'table'>
+                    <div class="row"> 
+                        <div class=" articledashboard">Blog Title</div>
+                        <div>Published Date</div>
+                        <div class= 'action'>Action</div>
+                    </div>
+                    <div><hr class="horizontal line"></div>
+                </div>
+                <div id = 'thewholecreatetable'class='thewholecreatetable' >
+                <div class="create" > Create new article</div>
+                <form  id = 'formdashboard'class="tabledashboard">
+                   <div class="firstname" ><input class=' inputtitle'placeholder="title" id="inputdashboard">  </input></div> 
+                   <div class="firstname" > <input type="file" class=' inputtitle' accept="image/jpeg , image/png , image/jpg " id="footer">  </input></div> 
+                   <div class="messageme"> <textarea id="paragraphdashboard" name="paragraphInput" rows="5" placeholder="Description" required="required" ></textarea></div>
+                <div class="lastdiv"> 
+                    <!-- <div class="upload"> <img  class='uploadimage' src="uploadimage.png" alt="">
+                    </div> -->
+                    <button id= 'senddashboard'><div type= 'submit' class="send">Create</div></button>
+            </div>
+        </form>
+    </div>
+        <div id='thewholeedittable' class="thewholeedittable"> 
+            <div class="labelling" >edit article</div>
+            <br>
+        <form class="tabledashboard">
+            <div class="firstname" ><input class=' inputtitle'placeholder="title" id="inputdashboardedit">  </input></div> 
+            <div class="messageme"> <textarea id="paragraphdashboardedit" name="paragraphInput" rows="5" placeholder="Description" required="required" ></textarea></div>
+            <!-- <div class="firstname" ><input class=' inputtitle'placeholder="Footer" id="footeredit">  </input></div>  -->
+            <div class="firstname" > <input type="file" class=' inputtitle' accept="image/jpeg , image/png , image/jpg " id="footeredit">  </input></div>
+        <div class="lastdivi"> 
+            
+            <!-- <div class="upload"> <img  class='uploadimage' src="uploadimage.png" alt="">
+            </div> -->
+            <button class="sendi" id ='deletebutton' >delete</button>
+            <button class="sendii" id = 'publishbutton'>publish</button>
+    </div>
+</form>
+</div>
+<div class="themessagedash" id = 'themessagedash'>
+    <div class="messagesdiv">messages</div>
+    <div class="messages"  id = 'messagediv'>
+
+    
+    <div class="tabledash" >
+        <div class="messageblo" >
+            <!-- <img class="theprofilephoto" src="OIP (2).jpeg" alt=""> -->
+            <!-- <div class="chatsdashboard"> <div class="identification"><div class="Muhizi"> Muhizi Ivan</div>
+        <div>dalidapcm@gmail.com</div>
+    <div>29.feb.2024</div> <div class = 'photodiv'> <img src="icons8-delete-48 (1).png" class="deleteicon" alt="">
+  </div>  <div class="replydiv">   <img src="reply.png" class= 'reply' onclick="replyToEmail()" alt=""></div></div>
+        <div class="yournumber"> I wanted to get your number for the job offer</div> -->
+       
+    </div>
+    
+    <div class="nomessage" id = 'nomessage'> <div >No messages found</div> </div>
+    </div>
+        </div>
+    </div>
+        </div>
+    </body>
+</html>
